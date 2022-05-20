@@ -17,22 +17,22 @@ O Programa
 O Programa começar por pedir ao utilizador que indique linha por linha os números presentes no Sudoku que pretende resolver, sendo que o O é colocado quando não há nenhum número no quadrado indicado.
 
  
-	Todos esses números irão ficar guardados no respetivo vetor.
-	Após isso, todos os números guardados em cada vetor são colocados na respetiva linha da matriz.
+Todos esses números irão ficar guardados no respetivo vetor.
+Após isso, todos os números guardados em cada vetor são colocados na respetiva linha da matriz.
  
 	
-	Depois o programa corre todos os quadrados ( ou células) e sempre que encontra um espaço vazio (O número 0), substitui por um número que seja possível colocar (tendo em conta a linha e a coluna), por exemplo:
-	Imaginemos que temos o seguinte problema de Sudoku:
+Depois o programa corre todos os quadrados ( ou células) e sempre que encontra um espaço vazio (O número 0), substitui por um número que seja possível colocar (tendo em conta a linha e a coluna), por exemplo:
+Imaginemos que temos o seguinte problema de Sudoku:
 
-5	3	*0*	0	7	0	0	0	0
-6	0	0	1	9	5	0	0	0
-0	9	8	0	0	0	0	6	0
-8	0	0	0	6	0	0	0	3
-4	0	0	8	0	3	0	0	1
-7	0	0	0	2	0	0	0	6
-0	6	0	0	0	0	2	8	0
-0	0	0	4	1	9	0	0	5
-0	0	0	0	8	0	0	7	9
+	5	3	*0*	0	7	0	0	0	0
+	6	0	0	1	9	5	0	0	0
+	0	9	8	0	0	0	0	6	0
+	8	0	0	0	6	0	0	0	3
+	4	0	0	8	0	3	0	0	1
+	7	0	0	0	2	0	0	0	6
+	0	6	0	0	0	0	2	8	0
+	0	0	0	4	1	9	0	0	5
+	0	0	0	0	8	0	0	7	9
 
 
 O programa chega à posição assinalada (entre 2 *) e corre todos os números do 1 ao 9 e coloca o primeiro número possível tendo em conta os números presentes na linha e na coluna.
@@ -44,7 +44,7 @@ Sempre que o programa chega a um ponto que não há possibilidades, significa qu
 
 User Cases / Sugestões
 
-	Devido ao tempo escasso para fazermos este projeto, há melhorias de código que poderia fazer mas não houve tempo, pelo que coloco aqui as melhorias que seriam as próximas a serem implementadas:
+Devido ao tempo escasso para fazermos este projeto, há melhorias de código que poderia fazer mas não houve tempo, pelo que coloco aqui as melhorias que seriam as próximas a serem implementadas:
 
 
 1.	Criação de uma função para:
