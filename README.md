@@ -1,4 +1,4 @@
-# Cpp-Project (Portuguese Version Only)
+# Cpp-Project - Sudoku Solver (Portuguese Version Only)
 
 Jogo: Sudoku
 Objetivo do programa: Colocar o Sudoku pretendido no programa e ele auto resolvê-lo.
